@@ -19,6 +19,31 @@
     --footer-color: #80604D;
   }
   
+
+  .navbar {
+    background-color: var(--bg-color);
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+
+  .navbar-nav > li{
+    padding-left:16px;
+    padding-right:16px;
+  }
+
+  .logo {
+    width: 100%;
+    height: auto;
+    max-width: 250px;
+    margin: 0 auto;
+    display: block;
+  }
+
   body {
     font-family: 'Poppins', sans-serif;
     background-color: var(--bg-color);
@@ -26,7 +51,7 @@
   }
   
   .container {
-    max-width: 430px;
+    max-width: 1728px;
   }
   
   .main-header {
