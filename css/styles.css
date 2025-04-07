@@ -44,16 +44,77 @@
     display: block;
   }
 
+/*---------------------------------------------------------*/
+
+
+
   body {
     font-family: 'Poppins', sans-serif;
     background-color: var(--bg-color);
     color: var(--text-color);
+    min-width: 430px;
   }
   
-  .container {
-    max-width: 1728px;
+h1 {
+    font-size: 30pt;
+    line-height: 32pt;
+    margin: 20px 1px;
+    letter-spacing: -0.05em;
+    color: var(--heading-color);
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .square-image {
+    width: 80%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    margin-bottom: 0.5rem;
+  }
+
+    h2 {
+    font-size: 36pt;
+    line-height: 40pt;
+    letter-spacing: -0.05em;
+    color: var(--heading-color);
+    font-weight: 700;
+    text-align: center;
+  }
+
+  P {
+    font-size: 20pt;
+    line-height: 26pt;
+    letter-spacing: 0.02em;
+    margin-bottom: 1rem;
+    color: var(--text-color);
+  }
+
+  .action-btn {
+    background-color: #F0ECE3;
+    color: var(--heading-color);
+    font-size: 20pt;
+    font-weight: 500;
+    border: 2px solid var(--heading-color);
+    border-radius: 8px;
+    width: 90%;
+    padding: 12px;
+    margin-top: 1rem;
+    text-align: center;
+    text-decoration: none;
   }
   
+  .action-btn:hover {
+    opacity: 0.85;
+  }
+  
+  h3 {
+    font-size: 28pt;
+    line-height: 32pt;
+    letter-spacing: -0.05em;
+    color: var(--heading-color);
+    font-weight: 700;
+    text-align: center;
+}
   .main-header {
     font-size: 42pt;
     line-height: 46pt;
@@ -89,34 +150,13 @@
     margin-bottom: 1rem;
   }
   
-  .square-image {
-    width: 48%;
-    aspect-ratio: 1 / 1;
-    object-fit: cover;
-    margin-bottom: 0.5rem;
-  }
-  
   .image-grid {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
   }
   
-  .action-btn {
-    background-color: var(--cta-color);
-    color: #FFFFFF;
-    font-size: 20pt;
-    border-radius: 8px;
-    width: 100%;
-    padding: 12px;
-    margin-top: 1rem;
-    text-align: center;
-    text-decoration: none;
-  }
-  
-  .action-btn:hover {
-    opacity: 0.85;
-  }
+
   
   .footer-bg {
     background-color: var(--footer-color);
