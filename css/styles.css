@@ -52,7 +52,7 @@
     font-family: 'Poppins', sans-serif;
     background-color: var(--bg-color);
     color: var(--text-color);
-    min-width: 430px;
+    min-width: 460px;
   }
   
 h1 {
@@ -72,10 +72,11 @@ h1 {
     margin-bottom: 0.5rem;
   }
 
-    h2 {
+  h2 {
     font-size: 36pt;
     line-height: 40pt;
     letter-spacing: -0.05em;
+    margin: 1rem;
     color: var(--heading-color);
     font-weight: 700;
     text-align: center;
@@ -85,26 +86,37 @@ h1 {
     font-size: 20pt;
     line-height: 26pt;
     letter-spacing: 0.02em;
-    margin-bottom: 1rem;
+    margin: 1rem;
     color: var(--text-color);
   }
 
   .action-btn {
-    background-color: #F0ECE3;
+    display: block;
+    margin: auto;
+    background-color: var(--background-color);
     color: var(--heading-color);
     font-size: 20pt;
     font-weight: 500;
     border: 2px solid var(--heading-color);
     border-radius: 8px;
-    width: 90%;
+    width: 80%;
     padding: 12px;
     margin-top: 1rem;
     text-align: center;
     text-decoration: none;
+    box-shadow: 0px 4px 0 2px rgba(17, 17, 17, 0.2);
   }
   
   .action-btn:hover {
     opacity: 0.85;
+    transition: opacity 0.5s ease;
+    background-color: var(--cta-color);
+    color: var(--bg-color);
+  }
+
+  .action-btn:active {
+    transform: scale(0.95);
+    transition: transform 0.1s ease;
   }
   
   h3 {
@@ -115,6 +127,15 @@ h1 {
     font-weight: 700;
     text-align: center;
 }
+
+
+h5 {
+    font-size: 20pt;
+    line-height: 24pt;
+    letter-spacing: -0.05em;
+    color: var(--heading-color);
+    font-weight: 700;
+    text-align: center;}
   .main-header {
     font-size: 42pt;
     line-height: 46pt;
