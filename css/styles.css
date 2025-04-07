@@ -12,177 +12,153 @@
 
 /* Root variables for colors */
 :root {
-    --heading-color: #563C2E;
-    --cta-color: #3CB4C9;
-    --bg-color: #F0ECE3;
-    --text-color: #000000;
-    --footer-color: #80604D;
-  }
-  
-
-  .navbar {
-    background-color: var(--bg-color);
-    padding: 1rem;
-    display: flex;
-    justify-content: center;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-  }
-
-  .navbar-nav > li{
-    padding-left:16px;
-    padding-right:16px;
-  }
-
-  .logo {
-    width: 100%;
-    height: auto;
-    max-width: 250px;
-    margin: 0 auto;
-    display: block;
-  }
-
-/*---------------------------------------------------------*/
-
-
-
-  body {
-    font-family: 'Poppins', sans-serif;
-    background-color: var(--bg-color);
-    color: var(--text-color);
-    min-width: 460px;
-  }
-  
-h1 {
-    font-size: 30pt;
-    line-height: 32pt;
-    margin: 20px 1px;
-    letter-spacing: -0.05em;
-    color: var(--heading-color);
-    font-weight: bold;
-    text-align: center;
-  }
-
-  .square-image {
-    width: 80%;
-    aspect-ratio: 1 / 1;
-    object-fit: cover;
-    margin-bottom: 0.5rem;
-  }
-
-  h2 {
-    font-size: 36pt;
-    line-height: 40pt;
-    letter-spacing: -0.05em;
-    margin: 1rem;
-    color: var(--heading-color);
-    font-weight: 700;
-    text-align: center;
-  }
-
-  P {
-    font-size: 20pt;
-    line-height: 26pt;
-    letter-spacing: 0.02em;
-    margin: 1rem;
-    color: var(--text-color);
-  }
-
-  .action-btn {
-    display: block;
-    margin: auto;
-    background-color: var(--background-color);
-    color: var(--heading-color);
-    font-size: 20pt;
-    font-weight: 500;
-    border: 2px solid var(--heading-color);
-    border-radius: 8px;
-    width: 80%;
-    padding: 12px;
-    margin-top: 1rem;
-    text-align: center;
-    text-decoration: none;
-    box-shadow: 0px 4px 0 2px rgba(17, 17, 17, 0.2);
-  }
-  
-  .action-btn:hover {
-    opacity: 0.85;
-    transition: opacity 0.5s ease;
-    background-color: var(--cta-color);
-    color: var(--bg-color);
-  }
-
-  .action-btn:active {
-    transform: scale(0.95);
-    transition: transform 0.1s ease;
-  }
-  
-  h3 {
-    font-size: 28pt;
-    line-height: 32pt;
-    letter-spacing: -0.05em;
-    color: var(--heading-color);
-    font-weight: 700;
-    text-align: center;
+  --heading-color: #563C2E;
+  --cta-color: #3CB4C9;
+  --bg-color: #F0ECE3;
+  --text-color: #000000;
+  --footer-color: #80604D;
 }
 
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  min-width: 460px;
+}
+
+.navbar {
+  background-color: var(--bg-color);
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar-nav > li {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.logo {
+  width: 100%;
+  height: auto;
+  max-width: 250px;
+  margin: 0 auto;
+  display: block;
+}
+
+h1 {
+  font-size: 30pt;
+  line-height: 32pt;
+  margin: 20px 1px;
+  color: var(--heading-color);
+  font-weight: bold;
+  text-align: center;
+}
+
+h2, h3, h5 {
+  color: var(--heading-color);
+  font-weight: 700;
+  text-align: center;
+}
+
+h2 {
+  font-size: 36pt;
+  margin: 1rem;
+}
+
+h3 {
+  font-size: 28pt;
+}
 
 h5 {
-    font-size: 20pt;
-    line-height: 24pt;
-    letter-spacing: -0.05em;
-    color: var(--heading-color);
-    font-weight: 700;
-    text-align: center;}
-  .main-header {
-    font-size: 42pt;
-    line-height: 46pt;
-    letter-spacing: -0.05em;
-    color: var(--heading-color);
-    font-weight: 700;
-    text-align: center;
-  }
-  
-  .section-heading {
-    font-size: 32pt;
-    font-weight: 700;
-    color: var(--heading-color);
-  }
-  
-  .section-subheading {
-    font-size: 24pt;
-    color: var(--heading-color);
-  }
-  
-  .litter-name {
-    font-size: 24pt;
-    font-weight: 700;
-    color: var(--heading-color);
-  }
-  
-  .intro-text p,
-  .dogs-section p,
-  .cats-section p {
-    font-size: 20pt;
-    line-height: 26pt;
-    letter-spacing: 0.02em;
-    margin-bottom: 1rem;
-  }
-  
-  .image-grid {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-  }
-  
+  font-size: 20pt;
+}
 
-  
-  .footer-bg {
-    background-color: var(--footer-color);
+p {
+  font-size: 20pt;
+  line-height: 26pt;
+  margin: 1rem;
+  color: var(--text-color);
+}
+
+.square-image {
+  width: 80%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  margin-bottom: 0.5rem;
+}
+
+.action-btn {
+  display: block;
+  margin: auto;
+  background-color: var(--bg-color);
+  color: var(--heading-color);
+  font-size: 20pt;
+  font-weight: 500;
+  border: 2px solid var(--heading-color);
+  border-radius: 8px;
+  width: 80%;
+  padding: 12px;
+  margin-top: 1rem;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: 0px 4px 0 2px rgba(17, 17, 17, 0.2);
+}
+
+.action-btn:hover {
+  opacity: 0.85;
+  background-color: var(--cta-color);
+  color: var(--bg-color);
+}
+
+.action-btn:active {
+  transform: scale(0.95);
+  transition: transform 0.1s ease;
+}
+
+footer {
+  background-color: var(--footer-color);
+  color: white;
+}
+
+footer .text-body-secondary {
+  color: white !important;
+}
+
+.text-center.text-body-secondary {
+  font-size: 14px;
+}
+
+footer .navbar-brand {
+  display: flex;
+  align-items: start;
+  justify-content: flex-start;
+  margin: 1rem;
+}
+
+footer .navbar-brand .logo {
+  width: 350px;
+  height: auto;
+}
+
+.nav-link {
+  font-size: 16pt;
+}
+
+@media (max-width: 1023px) {
+
+  h2 {
+    font-size: 26pt;
   }
-  
-  footer small {
-    font-size: 14pt;
+
+  h3 {
+    font-size: 22pt;
   }
+
+  p {
+    font-size: 16pt;
+    line-height: 28pt;
+  }
+}
