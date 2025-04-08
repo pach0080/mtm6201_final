@@ -4,115 +4,121 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>pach0080-final</title>
+
+    <!-- Preconnect for Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Popper.js -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+
+    <!-- Custom Styles -->
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+    <!-- Header Section -->
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container">
+                <!-- Logo -->
                 <a class="navbar-brand" href="index.html">
-                <img class="logo" src="images/logo.png" alt="Logo" width="100" height="50"></a>
+                    <img class="logo" src="images/logo.png" alt="Pawsitive Futures Logo" width="100" height="50">
+                </a>
 
+                <!-- Navbar Toggler for Mobile -->
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
+                <!-- Navbar Links -->
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="adoption.html">Adoption</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Foster</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Donate</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Events/Volunteers</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Contact Us</a>
-                        </li>
+                        <li class="nav-item"><a class="nav-link" href="adoption.html">Adoption</a></li>
+                        <li class="nav-item"><a class="nav-link" href="foster.html">Foster</a></li>
+                        <li class="nav-item"><a class="nav-link" href="donate.html">Donate</a></li>
+                        <li class="nav-item"><a class="nav-link" href="events.html">Events/Volunteers</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="contact-us.html" aria-current="page">Contact Us</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
 
+    <!-- Main Content -->
     <main>
-        <img src="gallery-C/contact-us.jpg" class="img-fluid" alt="dogs-hugging">
-
-
+        <!-- Hero Image Section -->
+        <img src="gallery-C/contact-us.jpg" class="img-fluid" alt="Dogs hugging">
         <br>
-        <h1>Contact Us 
-            <br>We’re Here to Help.</h1>
+        <h1 class="text-center">Contact Us<br>We’re Here to Help.</h1>
         <br>
 
+        <!-- Contact Information Section -->
         <div class="container-lg">
             <div class="row gy-4">
                 <div class="col-12 col-lg-6">
+                    <!-- Google Maps Embed -->
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2800.228851800163!2d-75.6898389!3d45.4248879!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce050102a86e5d%3A0xcbb198ad3cf62d92!2s50%20Rideau%20St%2C%20Ottawa%2C%20ON%20K1N%209J7%2C%20Canada!5e0!3m2!1sen!2sus!4v1744072418535!5m2!1sen!2sus" 
                         class="w-100" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
                 <div class="col-12 col-lg-6">
-                    <p>Write to us, but <b>please</b> be polite and 
-                        kind, our staff works hard everyday. <br>
-                        <a href="https://maps.app.goo.gl/opULAenL8T1XZtoc8" class="map-address">50 Rideau St. Ottawa, ON K1N 9J7 <br> +1 343-988-4522</a>
+                    <p>
+                        Write to us, but <b>please</b> be polite and kind, our staff works hard every day.<br>
+                        <a href="https://maps.app.goo.gl/opULAenL8T1XZtoc8" class="map-address">
+                            50 Rideau St. Ottawa, ON K1N 9J7<br>+1 343-988-4522
+                        </a>
                     </p>
                 </div>
             </div>
         </div>
-
         <br><br>
 
-            <form class="container-md" action="thankyou.html" method="post">
-                <div class="mb-3">
-                  <label for="exampleInputEmail1" class="form-label">Contact Email <i>(required)</i> </label>
-                  <input type="email" class="form-control form-control-lg" id="exampleInputEmail1" aria-describedby="emailHelp">
-                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-                </div>
-                <div class="mb-3">
-                  <label for="exampleInputPassword1" class="form-label">First Name <i>(required)</i> </label>
-                  <input class="form-control form-control-lg" type="text" placeholder="We just want to know how to adress you" aria-label="default input example">
-                </div>
-                <div class="mb-3">
-                    <label for="exampleInputPassword1" class="form-label">Last Name </label>
-                    <input class="form-control form-control-lg" class="form-control" id="exampleInputPassword1">
-                  </div>
-                <div class="mb-3">
-                        <label for="exampleFormControlTextarea1" class="form-label">Your Message (required)</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                </div>
-
-                  <br>
-                <button type="submit" class="btn action-btn">Send your message</button>
-              </form>
-              <br><br>
-
-        
+        <!-- Contact Form Section -->
+        <form class="container-md" action="thankyou.html" method="post">
+            <div class="mb-3">
+                <label for="email" class="form-label">Contact Email <i>(required)</i></label>
+                <input type="email" class="form-control form-control-lg" id="email" aria-describedby="emailHelp" required>
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+                <label for="firstName" class="form-label">First Name <i>(required)</i></label>
+                <input type="text" class="form-control form-control-lg" id="firstName" placeholder="We just want to know how to address you" required>
+            </div>
+            <div class="mb-3">
+                <label for="lastName" class="form-label">Last Name</label>
+                <input type="text" class="form-control form-control-lg" id="lastName">
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Your Message <i>(required)</i></label>
+                <textarea class="form-control" id="message" rows="3" required></textarea>
+            </div>
+            <br>
+            <button type="submit" class="btn action-btn">Send your message</button>
+        </form>
+        <br><br>
     </main>
 
+    <!-- Footer Section -->
     <footer class="py-3">
-    <a class="navbar-brand" href="index.html">
-    <img class="logo" src="images/logo-white.png" alt="Logo" width="auto" height="auto"></a>
-    <ul class="nav justify-content-center border-top pb-6 mb-6">
-      
-        <li class="nav-item"><a href="#" class="nav-link px-6 text-body-secondary">Adopt</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-6 text-body-secondary">Foster</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-6 text-body-secondary">Donate</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-6 text-body-secondary">Event/Volunteers</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-6 text-body-secondary">Contact Us</a></li>
-
-    </ul>
-    <p class="text-center text-body-secondary">© Copyright Pawsitive Futures 2025</p>
+        <a class="navbar-brand" href="index.html">
+            <img class="logo" src="images/logo-white.png" alt="Pawsitive Futures Logo" width="auto" height="auto">
+        </a>
+        <ul class="nav justify-content-center border-top pb-6 mb-6">
+            <li class="nav-item"><a href="adoption.html" class="nav-link px-6 text-body-secondary">Adopt</a></li>
+            <li class="nav-item"><a href="foster.html" class="nav-link px-6 text-body-secondary">Foster</a></li>
+            <li class="nav-item"><a href="donate.html" class="nav-link px-6 text-body-secondary">Donate</a></li>
+            <li class="nav-item"><a href="events.html" class="nav-link px-6 text-body-secondary">Events/Volunteers</a></li>
+            <li class="nav-item"><a href="contact-us.html" class="nav-link px-6 text-body-secondary">Contact Us</a></li>
+        </ul>
+        <p class="text-center text-body-secondary">© Copyright Pawsitive Futures 2025</p>
     </footer>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
 </body>
 </html>

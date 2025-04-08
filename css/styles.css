@@ -83,6 +83,13 @@ p {
   color: var(--text-color);
 }
 
+li {
+  font-size: 18pt;
+  line-height: 26pt;
+  margin: 1rem;
+  color: var(--text-color);
+}
+
 a .map-address {
   font-size: 20pt;
   line-height: 26pt;
@@ -136,6 +143,11 @@ footer .text-body-secondary {
 
 .text-center.text-body-secondary {
   font-size: 14px;
+}
+
+
+footer {
+  margin-top: 60px;
 }
 
 footer .navbar-brand {
