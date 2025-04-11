@@ -51,7 +51,7 @@ body {
 h1 {
   font-size: 30pt;
   line-height: 32pt;
-  margin: 20px 1px;
+  margin: 20px 2px;
   color: var(--heading-color);
   font-weight: bold;
   text-align: center;
@@ -192,7 +192,7 @@ footer .navbar-brand .logo {
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1728px) {
 
   h2 {
     font-size: 32pt;
@@ -206,4 +206,14 @@ footer .navbar-brand .logo {
     font-size: 20pt;
     line-height: 32pt;
   }
+
+  h1 {
+    font-size: 36pt;
+    line-height: 38pt;
+    margin: 20px 1px;
+    color: var(--heading-color);
+    font-weight: bold;
+    text-align: center;
+  }
+
 }
